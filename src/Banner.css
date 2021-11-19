@@ -1,0 +1,39 @@
+.banner{
+    background-color: paleturquoise;
+    height: 50vh;
+    position: relative;
+
+}
+.banner_info{
+    background-color: black;
+    color: white;
+    padding-top: 30vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    width: 300px;
+}
+.banner_info > button{
+    background-color: green;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.banner_info > button:hover{
+    background-color: white;
+    color: green;
+}
+
+.banner_searchButton{
+    background-color: white !important;
+    font-weight: 900 !important;
+
+    text-transform: inherit !important;
+    color: green !important;
+
+}
+.banner_search{
+
+display: flex;
+flex-direction: column;
+}
